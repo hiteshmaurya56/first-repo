@@ -49,7 +49,6 @@ deno=-deno*i*(i+1);
 term=num/deno;
 sum=sum+term;
 i=i+2;
-cout<<num<<" "<<deno<<" "<<term<<endl;
 }
 while(term<-0.001 || term>0.001);
 return sum;
